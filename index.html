@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Notes App</title>
+</head>
+<body>
+<h2 class="text-center mt-3">Notes Application With Javascript</h2>    
+
+<div class="container w-50 mx-auto bg-dark py-4 px-4 text-white">
+<label for="" class="my-2">Title</label>
+<input type="text" class="form-control" id="titleInput">
+<div class="alert alert-danger py-1" id="alertTitle">Enter a Valid Title start With 1 upperCase and includes at least 3 char </div>
+<label for="" class="my-2">Description</label>
+<input type="text" class="form-control" id="descriptionInput">
+<div class="alert alert-danger py-1" id="alertdesc">description must be at least 3 words and at most 40 words</div>
+<label for="" class="my-2">Date</label>
+<input type="date" class="form-control" id="dateInput">
+<button class="btn btn-outline-secondary mt-3" id="addBtn">Add Note</button>
+<button class="btn btn-outline-secondary mt-3" id="addEdit">Add Edit</button>
+<button class="btn btn-outline-primary mt-3" id="resetBtn">Reset Form</button>
+</div>
+
+<div class="container">
+    <div class="row" id="rowData">
+
+    </div> 
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

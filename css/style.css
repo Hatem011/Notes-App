@@ -1,0 +1,22 @@
+*
+{  
+font-family: 'Nunito', sans-serif;
+
+}
+
+.note-item
+{
+text-align: center;
+margin:30px auto;
+border: 1px solid #fff;
+padding:20px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#addEdit
+{
+display: none;
+}
+.alert
+{
+    display: none;
+}
